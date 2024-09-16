@@ -1,7 +1,6 @@
-# BERT-Stock-Direction-Prediction-using-news
+### BERT-Stock-Direction-Prediction-using-news
 
-
-### This project focuses on harnessing the power of viral tweets and news data to accurately predict stock prices for two prominent technology companies, Amazon and Apple. We employ natural language processing (NLP) techniques and machine learning algorithms to extract insights from social media and news sources. The project presents the methodology and techniques used to achieve this goal and evaluate the predictive performance of our models — a stock price direction prediction project built using the BERT pre-trained model.
+This project focuses on harnessing the power of viral tweets and news data to accurately predict stock prices for two prominent technology companies, Amazon and Apple. I employ natural language processing (NLP) techniques and machine learning algorithms to extract insights from social media and news sources. The project presents the methodology and techniques used to achieve this goal and evaluate the predictive performance of our models — a stock price direction prediction project built using the BERT pre-trained model.
 
 ### CODE
 1. ``` trainer.py ``` contains the train helper function for the BERT.
