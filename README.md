@@ -1,6 +1,11 @@
 ### BERT-Stock-Direction-Prediction-using-news
 
-This project focuses on harnessing the power of viral tweets and news data to accurately predict stock prices for two prominent technology companies, Amazon and Apple. I employ natural language processing (NLP) techniques and machine learning algorithms to extract insights from social media and news sources. The project presents the methodology and techniques used to achieve this goal and evaluate the predictive performance of our models — a stock price direction prediction project built using the BERT pre-trained model.
+This project leverages the power of BERT (Bidirectional Encoder Representations from Transformers) for predicting stock price direction based on news articles and viral tweets. The model is fine-tuned to classify whether stock prices will go up or down, using a combination of Natural Language Processing (NLP) techniques and financial datasets.
+
+### Features
+- BERT Model: Fine-tuned for stock price movement prediction.
+- NLP Techniques: Utilizes tokenization and feature extraction (TF-IDF, Word2Vec).
+- Performance: Achieved ~72.5% accuracy in prediction.
 
 ### CODE
 1. ``` trainer.py ``` contains the train helper function for the BERT.
@@ -11,6 +16,6 @@ This project focuses on harnessing the power of viral tweets and news data to ac
 6. ``` main.py ``` contains the base code for BERT
 7. ``` bert_preprocess.py ``` contains code to pre-process the text for BERT
 
-Steps to run the project: 
+### Steps to run the project
 1. Open the file main.py
 2. To run the main.py file use the command ``` python main.py --data_dir <dataset-dir> --model <model_name> --token_len <token_length> --folds <K_fold>```
