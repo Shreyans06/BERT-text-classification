@@ -1,4 +1,4 @@
-### BERT-Stock-Direction-Prediction-using-news
+### NewsPulse: Stock Trend Predictor 
 
 This project leverages the power of BERT (Bidirectional Encoder Representations from Transformers) for predicting stock price direction based on news articles and viral tweets. The model is fine-tuned to classify whether stock prices will go up or down, using a combination of Natural Language Processing (NLP) techniques and financial datasets.
 
